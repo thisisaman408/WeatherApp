@@ -1,0 +1,28 @@
+body {
+  margin: auto;
+  background-color: bisque;
+}
+.city {
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+}
+#city {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+}
+#submit {
+  transform: scale(1.2);
+  position: relative;
+  left: 2rem;
+  bottom: 2px;
+  top: 2rem;
+}
+.heading{
+  font-size: 2rem;
+  font-weight: bold;
+}
