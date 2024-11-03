@@ -1,7 +1,8 @@
 const express = require("express");
 const https = require("https");
 const fs = require("fs");
-const id = "81f35bc5475c4e209e2162754240311";
+require("dotenv").config();
+const id = process.env.API_KEY;
 const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
